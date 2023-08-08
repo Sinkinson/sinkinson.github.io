@@ -3,59 +3,140 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	/* font: inherit; */
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font: inherit; */
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Actual */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   line-height: 24px;
 }
 
@@ -89,7 +170,11 @@ a:hover {
   margin-bottom: 30px;
   font-size: 1.125em;
   font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro", sans-serif;
+}
+
+.highlight {
+  color: rgb(255, 184, 97);
 }
 
 img {
@@ -127,31 +212,34 @@ h1 {
 
 @media (max-width: 350px) {
   .main {
-      margin-left: 0px;
-      max-width: 300px;
-      margin: 0 auto;
-      width: 90%;
+    margin-left: 0px;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 90%;
   }
 }
 
 @media (min-width: 350px) and (max-width: 480px) {
   .main {
-      margin-left: 0px;
-      max-width: 350px;
-      margin: 0 auto;
-      width: 90%;
+    margin-left: 0px;
+    max-width: 350px;
+    margin: 0 auto;
+    width: 90%;
   }
 }
 
 @media (max-width: 820px) {
   .main {
-      margin-left: 0px;
-      margin: 0 auto;
+    margin-left: 0px;
+    margin: 0 auto;
   }
 }
 
-@media (min-width: 821px) and (max-width: 979px) {}
+@media (min-width: 821px) and (max-width: 979px) {
+}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
-@media (min-width: 1600px) {}
+@media (min-width: 1600px) {
+}
